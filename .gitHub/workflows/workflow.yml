@@ -1,0 +1,32 @@
+name: CI Pipeline
+
+on:
+  push: # 测试的时候才放开
+
+jobs:
+  run-jest-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+
+      - name: Install
+        run: |
+          npm i
+
+      - name: Run Jest
+        run: npm test
+
+      # # 生成的文件
+      # - name: Upload Postman report artifacts
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: postman-reports-${{ matrix.collection }} # 给每个集合生成不同的artifact名称
+      #     path: |
+      #       output-${{ matrix.collection }}.json
+      #       output-${{ matrix.collection }}.html

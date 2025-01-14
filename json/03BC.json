@@ -1,0 +1,80 @@
+[
+    {
+        "name": "B000000000B1",
+        "sections": [],
+        "sectionAliases": [],
+        "updatedAt": "2023-08-07T19:59:35+00:00",
+        "version": 127,
+        "data": {
+            "city_code": "01---"
+        }
+    },
+    {
+        "_id": "03B000000001",
+        "name": "B000000000B1",
+        "sections": [],
+        "sectionAliases": [],
+        "updatedAt": "2023-08-07T19:59:35+00:00",
+        "version": 127,
+        "data": {
+            "adapter_association_token": "AYmSS0tHLCbZFwO",
+            "google_home_users": [],
+            "push_notification_flag": {
+                "remind_of_turning_off": true,
+                "power_on_off": false,
+                "monitoring": true,
+                "ai_recommendation": true
+            },
+            "city_code": "01---",
+            "adapter_type": "HighSpec",
+            "display_name": "\u30b0\u30df\u7528\u30a8\u30a2\u30b3\u30f3",
+            "zip_code": "001----",
+            "mode": "02",
+            "group_id": 19,
+            "power_rate": "27",
+            "adapter_refresh_token": "refreshToken_vem2iNKtKLVSiyHHjuT2",
+            "adapter_firmware_version": "E073V03P01L12-2",
+            "is_migrated": "true"
+        },
+        "readonly": {
+            "owner": "62732731e5aa2d10975-----",
+            "members": ["62733091f67ccf05c7a-----"],
+            "created_at": "2022-05-05T01:53:11.815+00:00"
+        },
+        "rootonly": {}
+    },
+    {
+        "_id": "03B000000002",
+        "name": "B000000000B2",
+        "sections": [],
+        "sectionAliases": [],
+        "updatedAt": "2023-08-07T19:59:35+00:00",
+        "version": 127,
+        "data": {
+            "adapter_association_token": "AYmSS0tHLCbZFwO",
+            "google_home_users": [],
+            "push_notification_flag": {
+                "remind_of_turning_off": true,
+                "power_on_off": false,
+                "monitoring": true,
+                "ai_recommendation": true
+            },
+            "city_code": "01---",
+            "adapter_type": "HighSpec",
+            "display_name": "\u30b0\u30df\u7528\u30a8\u30a2\u30b3\u30f3",
+            "zip_code": "001----",
+            "mode": "02",
+            "group_id": 19,
+            "power_rate": "27",
+            "adapter_refresh_token": "refreshToken_vem2iNKtKLVSiyHHjuT2",
+            "adapter_firmware_version": "E073V03P01L12-2",
+            "is_migrated": "true"
+        },
+        "readonly": {
+            "owner": "62732731e5aa2d10975-----",
+            "members": ["62733091f67ccf05c7a-----"],
+            "created_at": "2022-05-05T01:53:11.815+00:00"
+        },
+        "rootonly": {}
+    }
+]
